@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Work on Shirley Zhou</title>
+    <link>/work/</link>
+    <description>Recent content in Work on Shirley Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Mar 2019 21:35:23 -0700</lastBuildDate>
+    
+	<atom:link href="/work/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lily</title>
+      <link>/work/lily/</link>
+      <pubDate>Tue, 12 Mar 2019 21:35:23 -0700</pubDate>
+      
+      <guid>/work/lily/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dueling Dragons</title>
+      <link>/work/dueling-dragons/</link>
+      <pubDate>Thu, 14 Feb 2019 00:52:03 -0800</pubDate>
+      
+      <guid>/work/dueling-dragons/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Winterbird</title>
+      <link>/work/winterbird/</link>
+      <pubDate>Thu, 14 Feb 2019 00:47:07 -0800</pubDate>
+      
+      <guid>/work/winterbird/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fisheye</title>
+      <link>/work/fisheye/</link>
+      <pubDate>Thu, 14 Feb 2019 00:46:43 -0800</pubDate>
+      
+      <guid>/work/fisheye/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Autumn Wind</title>
+      <link>/work/autumn-wind/</link>
+      <pubDate>Thu, 14 Feb 2019 00:37:31 -0800</pubDate>
+      
+      <guid>/work/autumn-wind/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lotus</title>
+      <link>/work/lotus/</link>
+      <pubDate>Wed, 13 Feb 2019 23:29:43 -0800</pubDate>
+      
+      <guid>/work/lotus/</guid>
+      <description>Lotus. Digital Art, Procreate</description>
+    </item>
+    
+  </channel>
+</rss>

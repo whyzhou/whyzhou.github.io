@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>traditional on Shirley Zhou</title>
+    <link>/tags/traditional/</link>
+    <description>Recent content in traditional on Shirley Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Feb 2019 00:52:03 -0800</lastBuildDate>
+    
+	<atom:link href="/tags/traditional/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dueling Dragons</title>
+      <link>/work/dueling-dragons/</link>
+      <pubDate>Thu, 14 Feb 2019 00:52:03 -0800</pubDate>
+      
+      <guid>/work/dueling-dragons/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
