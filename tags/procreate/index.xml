@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>procreate on Shirley Zhou</title>
@@ -6,10 +6,19 @@
     <description>Recent content in procreate on Shirley Zhou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Feb 2019 00:47:07 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 12 Mar 2019 21:35:23 -0700</lastBuildDate>
     
 	<atom:link href="/tags/procreate/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Lily</title>
+      <link>/work/lily/</link>
+      <pubDate>Tue, 12 Mar 2019 21:35:23 -0700</pubDate>
+      
+      <guid>/work/lily/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Winterbird</title>

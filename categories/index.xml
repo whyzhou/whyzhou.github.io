@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Shirley Zhou</title>
@@ -17,24 +17,6 @@
       <pubDate>Tue, 12 Mar 2019 21:35:23 -0700</pubDate>
       
       <guid>/categories/art/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reading</title>
-      <link>/categories/reading/</link>
-      <pubDate>Thu, 14 Feb 2019 00:09:10 -0800</pubDate>
-      
-      <guid>/categories/reading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Uncategorized</title>
-      <link>/categories/uncategorized/</link>
-      <pubDate>Wed, 13 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/uncategorized/</guid>
       <description></description>
     </item>
     

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shirley Zhou on Shirley Zhou</title>
@@ -10,128 +9,12 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Lily</title>
-      <link>/work/lily/</link>
+      <title>Work</title>
+      <link>/work/</link>
       <pubDate>Tue, 12 Mar 2019 21:35:23 -0700</pubDate>
       
-      <guid>/work/lily/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dueling Dragons</title>
-      <link>/work/dueling-dragons/</link>
-      <pubDate>Thu, 14 Feb 2019 00:52:03 -0800</pubDate>
-      
-      <guid>/work/dueling-dragons/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Winterbird</title>
-      <link>/work/winterbird/</link>
-      <pubDate>Thu, 14 Feb 2019 00:47:07 -0800</pubDate>
-      
-      <guid>/work/winterbird/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fisheye</title>
-      <link>/work/fisheye/</link>
-      <pubDate>Thu, 14 Feb 2019 00:46:43 -0800</pubDate>
-      
-      <guid>/work/fisheye/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Autumn Wind</title>
-      <link>/work/autumn-wind/</link>
-      <pubDate>Thu, 14 Feb 2019 00:37:31 -0800</pubDate>
-      
-      <guid>/work/autumn-wind/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Elantris</title>
-      <link>/2019/02/elantris/</link>
-      <pubDate>Thu, 14 Feb 2019 00:09:10 -0800</pubDate>
-      
-      <guid>/2019/02/elantris/</guid>
-      <description>
-
-&lt;p&gt;Elantris was pretty freaking legit.&lt;/p&gt;
-
-&lt;h3 id=&#34;thoughts-dump&#34;&gt;Thoughts dump&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;It&amp;rsquo;s clear that this is an early book, and Sanderson recycles themes.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:&#34;&gt;&lt;a href=&#34;#fn:&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; The main characters here have clear echos with Mistborn &amp;ndash; it&amp;rsquo;s as if Mistborn is an expanded version of Elantris. Arguably not as successful &lt;em&gt;because&lt;/em&gt; it&amp;rsquo;s not as concise.&lt;/li&gt;
-&lt;li&gt;Sanderson books feature strong female characters. &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:tm&#34;&gt;&lt;a href=&#34;#fn:tm&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;thoughts-dump-2&#34;&gt;Thoughts dump 2&lt;/h3&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-
-&lt;hr /&gt;
-
-&lt;ol&gt;
-&lt;li id=&#34;fn:&#34;&gt;I never quite understood why recycling themes is such a sin among writers, e.g. criticism of Brian Jacques. The similarity is comforting; the theme is what makes them so enthralling in the first place. But maybe I&amp;rsquo;m just too sentimental.
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:tm&#34;&gt;A sticking point for me.
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:tm&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Lotus</title>
-      <link>/work/lotus/</link>
-      <pubDate>Wed, 13 Feb 2019 23:29:43 -0800</pubDate>
-      
-      <guid>/work/lotus/</guid>
-      <description>
-
-&lt;h2 id=&#34;lotus&#34;&gt;Lotus.&lt;/h2&gt;
-
-&lt;p&gt;Digital Art, &lt;em&gt;Procreate&lt;/em&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>/2019/02/hello-world/</link>
-      <pubDate>Wed, 13 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/2019/02/hello-world/</guid>
-      <description>
-
-&lt;h2 id=&#34;hello-world&#34;&gt;Hello World&lt;/h2&gt;
-
-&lt;p&gt;Customary hello!&lt;/p&gt;
-
-&lt;h2 id=&#34;site-index&#34;&gt;Site Index&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;/&#34;&gt;Home&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/categories/&#34;&gt;Categories&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/tags/&#34;&gt;Tags&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/posts/&#34;&gt;Posts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/posts/news/&#34;&gt;News&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Scaffolding the site</title>
-      <link>/2019/02/v0/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/2019/02/v0/</guid>
-      <description>&lt;p&gt;Decided to try and learn some go so I feel reasonably understanding of what eng is doing. Instead, I&amp;rsquo;m mostly learning how to use Markdown and Jinja templates.
-Oh well.&lt;/p&gt;
+      <guid>/work/</guid>
+      <description>&lt;h2 id=&#34;art&#34;&gt;Art&lt;/h2&gt;
 </description>
     </item>
     
@@ -141,17 +24,13 @@ Oh well.&lt;/p&gt;
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>
-
-&lt;h2 id=&#34;work&#34;&gt;Work&lt;/h2&gt;
-
-&lt;p&gt;I solve B2B problems as a &lt;strong&gt;Product Manager&lt;/strong&gt; on &lt;a href=&#34;https://www.uber.com/business/&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;Uber for Business&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve also worked on gamifying business travel at &lt;a href=&#34;http://rocketrip.com&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;Rocketrip&lt;/a&gt;, interned at DreamWorks Animation, and TF&amp;rsquo;d a course at Harvard.&lt;/p&gt;
-
+      <description>&lt;h2 id=&#34;work&#34;&gt;Work&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m perfecting checkout as a &lt;strong&gt;Product Manager&lt;/strong&gt; at &lt;a href=&#34;https://www.bolt.com/&#34;&gt;Bolt&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve also solved B2B problems at &lt;a href=&#34;https://www.uber.com/business/&#34;&gt;Uber for Business&lt;/a&gt; and gamified business travel at &lt;a href=&#34;http://rocketrip.com&#34;&gt;Rocketrip&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;study&#34;&gt;Study&lt;/h2&gt;
-
-&lt;p&gt;I somehow translated a degree in &lt;a href=&#34;https://histsci.fas.harvard.edu/&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;History of Science&lt;/strong&gt;&lt;/a&gt; from Harvard into a tech job.&lt;/p&gt;
+&lt;p&gt;I somehow translated a degree in &lt;strong&gt;History of Science&lt;/strong&gt; from Harvard into a tech job.&lt;/p&gt;
+&lt;h2 id=&#34;play&#34;&gt;Play&lt;/h2&gt;
+&lt;p&gt;Always looking for &lt;a href=&#34;https://goodreads.com/shirleyz&#34;&gt;book recommendations&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

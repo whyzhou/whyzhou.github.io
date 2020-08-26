@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Shirley Zhou</title>
@@ -6,40 +6,22 @@
     <description>Recent content in Tags on Shirley Zhou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Feb 2019 00:09:10 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 12 Mar 2019 21:35:23 -0700</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Brandon Sanderson</title>
-      <link>/tags/brandon-sanderson/</link>
-      <pubDate>Thu, 14 Feb 2019 00:09:10 -0800</pubDate>
+      <title>digital</title>
+      <link>/tags/digital/</link>
+      <pubDate>Tue, 12 Mar 2019 21:35:23 -0700</pubDate>
       
-      <guid>/tags/brandon-sanderson/</guid>
+      <guid>/tags/digital/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Elantris</title>
-      <link>/tags/elantris/</link>
-      <pubDate>Thu, 14 Feb 2019 00:09:10 -0800</pubDate>
-      
-      <guid>/tags/elantris/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Illustrator</title>
-      <link>/tags/illustrator/</link>
-      <pubDate>Thu, 14 Feb 2019 00:37:31 -0800</pubDate>
-      
-      <guid>/tags/illustrator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Procreate</title>
+      <title>procreate</title>
       <link>/tags/procreate/</link>
       <pubDate>Tue, 12 Mar 2019 21:35:23 -0700</pubDate>
       
@@ -57,47 +39,20 @@
     </item>
     
     <item>
-      <title>digital</title>
-      <link>/tags/digital/</link>
-      <pubDate>Tue, 12 Mar 2019 21:35:23 -0700</pubDate>
-      
-      <guid>/tags/digital/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>high fantasy</title>
-      <link>/tags/high-fantasy/</link>
-      <pubDate>Thu, 14 Feb 2019 00:09:10 -0800</pubDate>
-      
-      <guid>/tags/high-fantasy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>procreate</title>
-      <link>/tags/procreate/</link>
-      <pubDate>Thu, 14 Feb 2019 00:47:07 -0800</pubDate>
-      
-      <guid>/tags/procreate/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>site</title>
-      <link>/tags/site/</link>
-      <pubDate>Wed, 13 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/site/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>traditional</title>
       <link>/tags/traditional/</link>
       <pubDate>Thu, 14 Feb 2019 00:52:03 -0800</pubDate>
       
       <guid>/tags/traditional/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Illustrator</title>
+      <link>/tags/illustrator/</link>
+      <pubDate>Thu, 14 Feb 2019 00:37:31 -0800</pubDate>
+      
+      <guid>/tags/illustrator/</guid>
       <description></description>
     </item>
     
