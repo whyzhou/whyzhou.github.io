@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-	<meta name="generator" content="Hugo 0.74.3" />
   <meta http-equiv="content-type" content="text/html;charset=utf-8">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,163 +8,135 @@
   <meta name="author" content="Shirley Zhou">
   <meta name="description" content="Shirley Zhou, Product @ Stripe, Bolt, Uber.">
   <meta name="keywords" content="product management, personal portfolio, personal site, Shirley Zhou, Yangxue Zhou, Shirley Zhou Harvard, Yangxue Zhou Harvard, Rocketrip, Uber, Uber for Business, Bolt, bolt.com, Bolt Financial, Stripe, Stripe Link, Link by Stripe, Link.com">
-  
-  
-  
-  <link rel="canonical" href="/" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-  <title>
-       
-       
-           Shirley Zhou
-       
-  </title>
-  <meta name="title" content="Shirley Zhou">
     
-  
-  <link rel="stylesheet" href="/font/iconfont.css">
-  <link rel="stylesheet" href="/css/main.min.css">
+  <link rel="canonical" href="/" />
+  <title>Shirley Zhou</title>
+  <meta name="title" content="Shirley Zhou">
+	<!-- Caveat Brush -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
 
+  <style>
+    :root {
+      --text: #0b0b0b;
+      --bg: #ffffff;
+      --box: #efefef;
+      --inner: #bdbdbd;
+    }
 
-  
-    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Shirley Zhou" />
-    <link href="/index.xml" rel="feed" type="application/rss+xml" title="Shirley Zhou" />
-  
-  
+    * { box-sizing: border-box; }
 
-<script type="application/ld+json">
-{
-    "@context": "http://schema.org",
-    "@type": "WebSite",
-    "url": "\/",
-    "name": "Shirley Zhou",
-    "author": {
-        "@type": "Person",
-        "name": "Shirley Zhou"
-    },
-    "description": "Shirley Zhou, Product @ Stripe",
-}
-</script>
- 
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Caveat Brush", cursive;
+    }
 
+    .page {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 60px 24px;
+    }
+
+    .layout {
+      width: 100%;
+      max-width: 1200px;
+      display: grid;
+      grid-template-columns: 1fr 520px;
+      column-gap: 80px;
+      align-items: start;
+    }
+
+    /* LEFT COLUMN */
+    .left {
+      padding-left: 40px;
+    }
+
+    .name {
+      font-size: clamp(56px, 6vw, 86px);
+      line-height: 1;
+      margin: 40px 0 70px 0;
+      font-weight: 400;
+    }
+
+    .links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      font-size: clamp(26px, 2.4vw, 36px);
+      line-height: 1.7;
+    }
+
+    .links a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+      text-underline-offset: 6px;
+    }
+
+    /* RIGHT COLUMN */
+    .right {
+      display: flex;
+      justify-content: center;
+      padding-top: 40px;
+    }
+
+    .photo {
+      width: min(520px, 100%);
+      aspect-ratio: 1 / 1;
+      background: var(--box);
+      display: grid;
+      place-items: center;
+    }
+
+    .photo::after {
+      content: "";
+      width: 120px;
+      height: 120px;
+      background: var(--inner);
+      border-radius: 14px;
+    }
+
+    /* MOBILE */
+    @media (max-width: 820px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+      .right {
+        display: none;
+      }
+      .left {
+        padding-left: 0;
+      }
+      .name {
+        margin: 20px 0 40px 0;
+      }
+    }
+  </style>
 </head>
 
-  
+<body>
+  <div class="page">
+    <div class="layout">
+      <section class="left">
+        <h1 class="name">Shirley Zhou</h1>
 
+        <ul class="links">
+          <li><a href="https://linkedin.com/in/whyzhou" target="_blank" rel="noopener">Linkedin</a></li>
+          <li><a href="https://www.instagram.com/whyzhou/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="mailto:me@shirleyzhou.me" rel="me noopener">Email</a></li>
+        </ul>
+      </section>
 
-  <body class="">
-    <div class="wrapper">
-        <nav class="navbar">
-    <div class="container">
-        <div class="navbar-header header-logo">
-        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="">Shirley Zhou</a>
-        </div>
-        <div class="menu navbar-right">
-                
-                
-        </div>
+      <aside class="right" aria-hidden="true">
+        <div class="photo"><img src=/img/me/me.jpg alt="shirley"/></div>
+      </aside>
     </div>
-</nav>
-<nav class="navbar-mobile" id="nav-mobile" style="display: none">
-     <div class="container">
-        <div class="navbar-header">
-            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="">Shirley Zhou</a></div>
-            <div class="menu-toggle">
-                <span></span><span></span><span></span>
-            </div>
-        </div>
-     
-          <div class="menu" id="mobile-menu">
-                
-                
-        </div>
-    </div>
-</nav>
-    	 <main class="main">
-          <div class="container">
-      		
-  
-  	<div class="intro">
-    
-    
-    
-    <div class="avatar">
-        <a href="/about/"> <img src="/images/me/me.jpeg"> </a>
-    </div>
-    
-    
-    <h2 class="description">
-       Product at Stripe.
-    </h2>
-    
-    <div class="social-links">
-      
-
-<a href="https://linkedin.com/in/whyzhou" target="_blank" rel="me noopener"><i class="iconfont icon-linkedin"></i></a>
-
-
-
-<a href="https://www.instagram.com/whyzhou/" target="_blank" rel="me noopener"><i class="iconfont icon-instagram"></i></a> 
- 
-
-
-<a href="mailto:me@shirleyzhou.me" rel="me noopener"><i class="iconfont icon-mail01"></i></a>
-
-
-
-
-
-
-    </div>
-</div>
-
-
- 
-
-
-  
-
-          </div>
-		   </main>
-      <footer class="footer">
-    <div class="copyright">
-        &copy;
-        
-        <span itemprop="copyrightYear">2019 - 2025</span>
-        
-        <span class="with-love">
-    	 <i class="iconfont icon-love"></i> 
-         </span>
-         
-            <span class="author" itemprop="copyrightHolder"><a href="">Shirley Zhou</a> | </span> 
-         
-
-         
-		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
-    </div>
-</footer>
-
-
-
-
-
-
-
-
-
-
-
-    
-    <script src="/js/vendor_main.min.js" async=""></script>
-
-
-
-     </div>
   </body>
 </html>
