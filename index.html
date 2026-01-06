@@ -140,7 +140,158 @@ fill='none' stroke='black' stroke-width='3' stroke-linecap='round'/>\
         margin: 20px 0 40px 0;
       }
     }
+	/* 90s monochrome cursor bubbles */
+.bubble {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  pointer-events: none;
+  z-index: 9999;
+
+  background: transparent;
+  border: 2px solid #000;               /* pure black */
+  opacity: 0.9;
+
+  transform: translate(-50%, -50%);
+  will-change: transform, opacity;
+}
+.bubble::after {
+  content: "";
+  position: absolute;
+  left: 22%;
+  top: 18%;
+  width: 26%;
+  height: 26%;
+  border-radius: 999px;
+  background: #000;
+  opacity: 0.12;
+}
+
   </style>
+
+<script>
+(() => {
+  // Spawn controls (slower / calmer)
+  const spawnEveryMs = 28;     // higher = fewer bubbles
+  const maxBubbles = 90;
+
+  // Size
+  const minSize = 7;
+  const maxSize = 16;
+
+  // Lifetimes (longer = floatier)
+  const lifeMin = 1200;
+  const lifeMax = 2200;
+
+  // Motion tuning
+  const driftMax = 0.09;       // px/ms sideways drift cap (very subtle)
+  const wobbleAmp = 5;         // px, gentle
+  const wobbleFreq = 0.007;    // lower = slower wobble
+
+  // "Gravity-like" easing upward:
+  // We'll ease vertical velocity from near 0 to a slightly faster rise over time.
+  const riseStart = 0.015;     // px/ms at birth (almost still)
+  const riseEnd   = 0.085;     // px/ms near end (still slow)
+
+  // Slight scale shrink over lifetime (optional)
+  const shrinkTo = 0.78;
+
+  let lastSpawn = 0;
+  const bubbles = [];
+
+  const rand = (min, max) => min + Math.random() * (max - min);
+
+  function createBubble(x, y) {
+    if (bubbles.length >= maxBubbles) {
+      const old = bubbles.shift();
+      old.el.remove();
+    }
+
+    const el = document.createElement("div");
+    el.className = "bubble";
+
+    const size = rand(minSize, maxSize);
+    el.style.width = size + "px";
+    el.style.height = size + "px";
+    el.style.borderWidth = Math.max(1.5, size * 0.12) + "px";
+
+    document.body.appendChild(el);
+
+    bubbles.push({
+      el,
+      x,
+      y,
+      vx: rand(-driftMax, driftMax),      // subtle drift
+      wobblePhase: rand(0, Math.PI * 2),
+      life: rand(lifeMin, lifeMax),
+      age: 0,
+      size
+    });
+  }
+
+  window.addEventListener("pointermove", (e) => {
+    const now = performance.now();
+    if (now - lastSpawn < spawnEveryMs) return;
+    lastSpawn = now;
+
+    // One bubble per tick (keeps it floaty)
+    createBubble(
+      e.clientX + rand(-4, 4),
+      e.clientY + rand(-4, 4)
+    );
+  }, { passive: true });
+
+  function easeInQuad(p) {
+    return p * p;
+  }
+
+  function frame(t) {
+    const last = frame._last || t;
+    const dt = Math.min(34, t - last); // clamp dt for stability
+    frame._last = t;
+
+    for (let i = bubbles.length - 1; i >= 0; i--) {
+      const b = bubbles[i];
+      b.age += dt;
+
+      const p = b.age / b.life; // 0..1
+      if (p >= 1) {
+        b.el.remove();
+        bubbles.splice(i, 1);
+        continue;
+      }
+
+      // Buoyancy-like easing: starts almost still, gets a bit faster
+      // Using ease-in gives "gravity-like" acceleration (but upward).
+      const rise = riseStart + (riseEnd - riseStart) * easeInQuad(p);
+
+      // Update position
+      b.y -= rise * dt;
+
+      // Gentle wobble + drift
+      const wobble = Math.sin(b.wobblePhase + b.age * wobbleFreq) * wobbleAmp;
+      b.x += b.vx * dt + (wobble * 0.02); // wobble contributes lightly to x
+
+      // Fade out slowly near the end
+      const opacity = 0.92 * (1 - (p * 0.9));
+
+      // Slight shrink
+      const scale = 1 - (1 - shrinkTo) * p;
+
+      b.el.style.opacity = opacity.toFixed(3);
+      b.el.style.transform = `translate(${b.x}px, ${b.y}px) scale(${scale})`;
+    }
+
+    requestAnimationFrame(frame);
+  }
+
+  requestAnimationFrame(frame);
+})();
+</script>
+
 </head>
 
 <body>
